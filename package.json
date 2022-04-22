@@ -1,0 +1,29 @@
+{
+  "name": "whoami",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "supervisor -n exit src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhfoo/whoami.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhfoo/whoami/issues"
+  },
+  "homepage": "https://github.com/jhfoo/whoami#readme",
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  },
+  "dependencies": {
+    "moleculer": "^0.14.20",
+    "moleculer-web": "^0.10.4"
+  }
+}
